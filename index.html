@@ -3,10 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
-    <title>Dynamic Features University of London | Official Technology Education Platform</title>
+    <title>Professor Hammad Mohammed Sahil | CEO - Dynamic Features University of London</title>
     
-    <!-- Meta SEO -->
-    <meta name="description" content="Welcome to DYNAMIC FEATURES University Of London. Unlock Your Potential with Innovative Education within the prestigious Imperial College London.">
+    <!-- Meta SEO & Open Graph for Crawlers -->
+    <meta name="description" content="Professor Hammad Mohammed Sahil is the Chief Executive Officer (CEO) of Dynamic Features University of London, Upwork's Asian Ambassador, and a global leader in EdTech, freelancing, and student empowerment.">
+    <meta name="keywords" content="Professor Hammad Mohammed Sahil, Dynamic Features University of London, CEO, Imperial College London, Upwork Asian Ambassador, EdTech">
+    
+    <!-- Schema.org Structured Data for SEO Indexing -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Professor Hammad Mohammed Sahil",
+      "jobTitle": "Chief Executive Officer (CEO)",
+      "worksFor": {
+        "@type": "CollegeOrUniversity",
+        "name": "Dynamic Features University of London"
+      },
+      "birthDate": "2007-08-26",
+      "birthPlace": {
+        "@type": "Place",
+        "name": "Chittagong, Bangladesh"
+      },
+      "alumniOf": [
+        "Government Muslim High School, Chattogram",
+        "Government City College, Chattogram"
+      ],
+      "award": [
+        "Honorary Membership, World University Organization (2025)",
+        "Employee of the Month, Table Xi Game Development Corporation (May 2022)",
+        "World Scratch Coding Competition (IKCC) Honorary Award (2023)",
+        "Bangladesh Physics Olympiad Regional Round — Gold Medalist",
+        "Excellence Academia Award (2026)"
+      ],
+      "knowsAbout": ["EdTech", "Freelancing", "Student Empowerment", "Artificial Intelligence", "Software Engineering"]
+    }
+    </script>
 
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -29,6 +61,7 @@
                     animation: {
                         'float': 'float 6s ease-in-out infinite',
                         'glow-pulse': 'glowPulse 3s infinite alternate',
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
                     },
                     keyframes: {
                         float: {
@@ -668,17 +701,18 @@
                 </div>
             </div>
 
-            <!-- PROFESSOR HAMMAD MD. SAHIL BIOGRAPHY CARD -->
-            <div class="bg-dfu-card border border-blue-500/30 rounded-3xl p-6 sm:p-10 lg:p-12 shadow-2xl relative overflow-hidden space-y-8">
+            <!-- SEO-OPTIMIZED PROFESSOR HAMMAD MOHAMMED SAHIL BIOGRAPHY CARD -->
+            <article itemscope itemtype="https://schema.org/Person" class="bg-dfu-card border border-blue-500/30 rounded-3xl p-6 sm:p-10 lg:p-12 shadow-2xl relative overflow-hidden space-y-10">
                 <div class="absolute -top-24 -right-24 w-72 h-72 bg-blue-600/10 rounded-full blur-3xl pointer-events-none"></div>
 
                 <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
-                    <!-- Portrait Image (Twitter Profile Link) -->
+                    <!-- Portrait Image -->
                     <div class="flex-shrink-0 flex flex-col items-center space-y-4 w-full sm:w-auto">
                         <div class="w-40 h-40 sm:w-48 sm:h-48 lg:w-52 lg:h-52 rounded-2xl overflow-hidden shadow-2xl border-2 border-blue-500/40 bg-slate-950 group mx-auto">
                             <img 
+                                itemprop="image"
                                 src="https://pbs.twimg.com/profile_images/1823806155464065024/tqFLhwsS_400x400.jpg" 
-                                alt="Professor Hammad Md. Sahil, CBE" 
+                                alt="Professor Hammad Mohammed Sahil - CEO of Dynamic Features University of London" 
                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                             />
                         </div>
@@ -687,20 +721,20 @@
                         </a>
                     </div>
 
-                    <!-- Biography Text Details -->
+                    <!-- SEO Structured Biography Text Details -->
                     <div class="space-y-4 flex-grow text-center lg:text-left">
-                        <div class="space-y-1">
+                        <header class="space-y-1">
                             <span class="text-[11px] uppercase tracking-widest text-blue-400 font-bold">Leadership &amp; Executive Profile</span>
-                            <h3 class="text-xl sm:text-2xl lg:text-3xl font-extrabold text-white">Professor Hammad Md. Sahil, CBE</h3>
-                            <p class="text-xs sm:text-sm font-medium text-slate-300">Chief Executive Officer, Dynamic Features University of London</p>
-                        </div>
+                            <h3 itemprop="name" class="text-xl sm:text-2xl lg:text-3xl font-extrabold text-white">Professor Hammad Mohammed Sahil</h3>
+                            <p itemprop="jobTitle" class="text-xs sm:text-sm font-medium text-slate-300">Chief Executive Officer, Dynamic Features University of London &amp; Upwork Asian Ambassador</p>
+                        </header>
 
                         <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                            Professor Hammad Mohammed Sahil, CBE, serves as Chief Executive Officer of Dynamic Features University of London and is a Spot Contributor within the Imperial Community, where he holds the distinction of being its youngest senior executive member. In this role, he oversees the institution's collaborations with leading companies and provides strategic guidance on security platforms across the IMP community.
+                            <strong class="text-white">Professor Hammad Mohammed Sahil</strong> serves as the Chief Executive Officer (CEO) of Dynamic Features University of London and is a Spot Contributor within the Imperial Community, where he holds the distinction of being its youngest senior executive member. In this role, he oversees the institution's collaborations with leading companies and provides strategic guidance on security platforms across the IMP community.
                         </p>
 
                         <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
-                            Born on 26 August 2007 in Chittagong, Bangladesh, Professor Sahil began his academic journey at Dynamic Features in 2018. He subsequently attended Government Muslim High School, Chattogram, from 2019 to 2024, followed by Government City College, Chattogram, from 2024 to 2026. Alongside his studies, he began his professional career as a freelancer, achieving recognition as one of the World's Top 100 Freelancers in 2020, before progressing through a series of roles at leading brands.
+                            Born on <time datetime="2007-08-26">26 August 2007</time> in Chittagong, Bangladesh, Professor Sahil began his academic journey at Dynamic Features in 2018. He subsequently attended Government Muslim High School, Chattogram, from 2019 to 2024, followed by Government City College, Chattogram, from 2024 to 2026. Alongside his studies, he began his professional career as a freelancer, achieving recognition as one of the World's Top 100 Freelancers on Upwork in 2020, and currently serves as Upwork's Asian Ambassador, representing the platform's freelance community across Asia.
                         </p>
 
                         <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
@@ -716,9 +750,11 @@
                             <i data-lucide="award" class="w-4 h-4 text-blue-400 flex-shrink-0"></i> Honors &amp; Recognition
                         </h4>
                         <ul class="space-y-1.5 text-slate-400">
-                            <li>• Dean's Award, Goldsmiths University (2023)</li>
                             <li>• Honorary Membership, World University Organization (2025)</li>
                             <li>• Employee of the Month, Table Xi Game Development Corporation (May 2022)</li>
+                            <li>• World Scratch Coding Competition (IKCC) Honorary Award (2023)</li>
+                            <li>• Bangladesh Physics Olympiad Regional Round — Gold Medalist</li>
+                            <li>• Excellence Academia Award (2026)</li>
                         </ul>
                     </div>
 
@@ -740,7 +776,107 @@
                         </p>
                     </div>
                 </div>
-            </div>
+
+                <!-- Senior Team Members Grid (Side-by-Side Small Cards) -->
+                <div class="pt-8 border-t border-slate-800 space-y-6">
+                    <div class="text-center sm:text-left">
+                        <h4 class="text-base sm:text-lg font-extrabold text-white flex items-center gap-2 justify-center sm:justify-start">
+                            <i data-lucide="users" class="w-5 h-5 text-blue-400"></i> Senior Executive Team
+                        </h4>
+                        <p class="text-xs text-slate-400">Executive leadership team supporting administrative and academic operations.</p>
+                    </div>
+
+                    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                        <!-- Member 1 -->
+                        <div class="bg-slate-950/80 border border-slate-800/80 rounded-2xl p-4 text-center flex flex-col items-center justify-between card-3d-tilt group">
+                            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-xl overflow-hidden shadow-lg border border-blue-500/30 mb-3 bg-slate-900">
+                                <img src="https://pxl01-imperialacuk.terminalfour.net/fit-in/428x572/filters:upscale()/prod01/channel_3/media/images/people-list/210825_hugh_brady_018-400X400.jpg" alt="Professor Hugh Brady" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                            </div>
+                            <div class="space-y-1 w-full">
+                                <h5 class="text-xs sm:text-sm font-bold text-white leading-tight">Professor Hugh Brady</h5>
+                                <p class="text-[10px] sm:text-xs text-blue-400 font-semibold uppercase tracking-wider">President</p>
+                            </div>
+                        </div>
+
+                        <!-- Member 2 -->
+                        <div class="bg-slate-950/80 border border-slate-800/80 rounded-2xl p-4 text-center flex flex-col items-center justify-between card-3d-tilt group">
+                            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-xl overflow-hidden shadow-lg border border-blue-500/30 mb-3 bg-slate-900">
+                                <img src="https://pxl01-imperialacuk.terminalfour.net/fit-in/428x572/filters:upscale()/prod01/channel_3/media/images/people-list/peter-haynes-profile.jpg" alt="Professor Peter Haynes" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                            </div>
+                            <div class="space-y-1 w-full">
+                                <h5 class="text-xs sm:text-sm font-bold text-white leading-tight">Professor Peter Haynes</h5>
+                                <p class="text-[10px] sm:text-xs text-blue-400 font-semibold uppercase tracking-wider">Provost and Deputy President</p>
+                            </div>
+                        </div>
+
+                        <!-- Member 3 -->
+                        <div class="bg-slate-950/80 border border-slate-800/80 rounded-2xl p-4 text-center flex flex-col items-center justify-between card-3d-tilt group">
+                            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-xl overflow-hidden shadow-lg border border-blue-500/30 mb-3 bg-slate-900">
+                                <img src="https://pxl01-imperialacuk.terminalfour.net/fit-in/428x572/filters:upscale()/prod01/channel_3/media/images/people-list/170105_wolthuizen_amanda_002_210534_001.jpg" alt="Amanda Wolthuizen" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                            </div>
+                            <div class="space-y-1 w-full">
+                                <h5 class="text-xs sm:text-sm font-bold text-white leading-tight">Amanda Wolthuizen</h5>
+                                <p class="text-[10px] sm:text-xs text-blue-400 font-semibold uppercase tracking-wider">Chief of Staff</p>
+                            </div>
+                        </div>
+
+                        <!-- Member 4 -->
+                        <div class="bg-slate-950/80 border border-slate-800/80 rounded-2xl p-4 text-center flex flex-col items-center justify-between card-3d-tilt group">
+                            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-xl overflow-hidden shadow-lg border border-blue-500/30 mb-3 bg-slate-900">
+                                <img src="https://www.imperial.ac.uk/media/images/portrait-2000x3000/Brandon-Baker.JPG" alt="Brandon Baker" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                            </div>
+                            <div class="space-y-1 w-full">
+                                <h5 class="text-xs sm:text-sm font-bold text-white leading-tight">Brandon Baker</h5>
+                                <p class="text-[10px] sm:text-xs text-blue-400 font-semibold uppercase tracking-wider">Vice-President</p>
+                            </div>
+                        </div>
+
+                        <!-- Member 5 -->
+                        <div class="bg-slate-950/80 border border-slate-800/80 rounded-2xl p-4 text-center flex flex-col items-center justify-between card-3d-tilt group">
+                            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-xl overflow-hidden shadow-lg border border-blue-500/30 mb-3 bg-slate-900">
+                                <img src="https://www.imperial.ac.uk/media/images/people-list/221108_martin_richard_003.jpg" alt="Richard Martin" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                            </div>
+                            <div class="space-y-1 w-full">
+                                <h5 class="text-xs sm:text-sm font-bold text-white leading-tight">Richard Martin</h5>
+                                <p class="text-[10px] sm:text-xs text-blue-400 font-semibold uppercase tracking-wider">Registrar and University Secretary</p>
+                            </div>
+                        </div>
+
+                        <!-- Member 6 -->
+                        <div class="bg-slate-950/80 border border-slate-800/80 rounded-2xl p-4 text-center flex flex-col items-center justify-between card-3d-tilt group">
+                            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-xl overflow-hidden shadow-lg border border-blue-500/30 mb-3 bg-slate-900">
+                                <img src="https://www.imperial.ac.uk/media/images/portrait-2000x3000/260316_Anna_Caffyn_001.jpg" alt="Anna Caffyn" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                            </div>
+                            <div class="space-y-1 w-full">
+                                <h5 class="text-xs sm:text-sm font-bold text-white leading-tight">Anna Caffyn</h5>
+                                <p class="text-[10px] sm:text-xs text-blue-400 font-semibold uppercase tracking-wider">Chief Financial Officer</p>
+                            </div>
+                        </div>
+
+                        <!-- Member 7 -->
+                        <div class="bg-slate-950/80 border border-slate-800/80 rounded-2xl p-4 text-center flex flex-col items-center justify-between card-3d-tilt group">
+                            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-xl overflow-hidden shadow-lg border border-blue-500/30 mb-3 bg-slate-900">
+                                <img src="https://www.imperial.ac.uk/media/images/portrait-2000x3000/240823_kathryn_al-shemmeri_008.jpg" alt="Kathryn Al-Shemmeri" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                            </div>
+                            <div class="space-y-1 w-full">
+                                <h5 class="text-xs sm:text-sm font-bold text-white leading-tight">Kathryn Al-Shemmeri</h5>
+                                <p class="text-[10px] sm:text-xs text-blue-400 font-semibold uppercase tracking-wider">Chief People Officer</p>
+                            </div>
+                        </div>
+
+                        <!-- Member 8 -->
+                        <div class="bg-slate-950/80 border border-slate-800/80 rounded-2xl p-4 text-center flex flex-col items-center justify-between card-3d-tilt group">
+                            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-xl overflow-hidden shadow-lg border border-blue-500/30 mb-3 bg-slate-900">
+                                <img src="https://pxl01-imperialacuk.terminalfour.net/fit-in/1079x305/filters:format(webp)/prod01/channel_3/media/imperial-college/be-inspired/student-recruitment-and-outreach/public/Imperial50_060225-144.jpg" alt="Professor Alan Spivey" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                            </div>
+                            <div class="space-y-1 w-full">
+                                <h5 class="text-xs sm:text-sm font-bold text-white leading-tight">Professor Alan Spivey</h5>
+                                <p class="text-[10px] sm:text-xs text-blue-400 font-semibold uppercase tracking-wider">Vice-Provost</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
         </section>
 
         <!-- COURSE CATALOG SECTION -->
@@ -858,7 +994,7 @@
             </div>
         </section>
 
-        <!-- LIVE INLINE ENROLLMENT FORM SECTION (Extremely Long & Fully Responsive for Mobile & Laptop) -->
+        <!-- LIVE INLINE ENROLLMENT FORM SECTION -->
         <section id="enrollment" class="py-16 sm:py-20 border-t border-dfu-border">
             <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
                 <div class="text-center space-y-3">
@@ -974,7 +1110,7 @@
                         </div>
                     </div>
 
-                    <!-- Official Certificate Image Preview Card (Updated Specimen Image) -->
+                    <!-- Official Certificate Image Preview Card -->
                     <div class="max-w-3xl mx-auto bg-slate-950/80 border border-blue-500/30 rounded-2xl p-4 sm:p-6 shadow-2xl space-y-3">
                         <div class="flex items-center justify-between text-xs text-slate-400 font-mono px-1">
                             <span class="flex items-center gap-1.5 text-blue-400 font-bold"><i data-lucide="award" class="w-4 h-4"></i> OFFICIAL CERTIFICATE SPECIMEN</span>
@@ -1102,7 +1238,7 @@
                     </div>
                 </div>
 
-                <!-- Online Service Action Buttons with Unique Gradient Color Schemes -->
+                <!-- Online Service Action Buttons -->
                 <div class="space-y-6 text-center">
                     <h3 class="text-xl sm:text-2xl font-extrabold tracking-widest text-white uppercase">ONLINE SERVICE</h3>
                     
@@ -1341,7 +1477,6 @@
                 document.getElementById('course-modal').classList.add('hidden');
             });
 
-            // Listen for postMessage from forms.app to auto-resize iframe height dynamically
             window.addEventListener('message', function(e) {
                 if (e.data && typeof e.data === 'object' && e.data.height) {
                     const iframe = document.getElementById('enrollment-iframe');
@@ -1560,15 +1695,15 @@
                 const infoEl = document.getElementById("studentInfo");
 
                 const studentDetails = {
-                    "002023-3100": { password: "3100", message: "Welcome Hasanur Rahman Adi💎", fatherName: "Azizur Rahman", motherName: "Bodrunnesa Nahid", nationality: "Bangladesh", courses: "Imperial Foundation Course", phone: "01891645407", presentAddress: "Patherghata Nazu Mia Lane 4no  Goli, Kotowali ,Chittagong", permanentAddress: "Same", directorName: "♛ Prof. Hammad Sahil CBE, Cpn Administrative Officer", dashboard: "https://dynamicfeatures10-stack.github.io/impfoundation/impfoundation.html" },
-                    "002023-8332": { password: "658192", message: "Welcome Tabasum Nahar Mahi💎 (Ref:CAO)", fatherName: "Showkat Akbar Rana", motherName: "Housna Ara Begum", nationality: "Bangladesh", courses: "Freelancing, Programming With A Purpose", phone: "+880-1871034258", presentAddress: "Bangladesh", permanentAddress: "Bangladesh", directorName: "♛ Prof. Hammad Sahil CBE, Cpn Administrative Officer", dashboard: "https://imperialxbd.carrd.co/" },
-                    "002026-2303": { password: "2303", message: "Welcome Ahanaf Farhan Rahi", fatherName: "X", motherName: "X", nationality: "Bangladesh", courses: "DF X Hammad", phone: "+880-1779625599", presentAddress: "Bangladesh", permanentAddress: "Bangladesh", directorName: "♛ Prof. Hammad Sahil CBE", dashboard: "https://dfxhammad.carrd.co/" },
-                    "002024-8908": { password: "374682", message: "Welcome Saloa Ivnat Raiyan", fatherName: "Md Eliaus", motherName: "Nur Akther", nationality: "Bangladesh", courses: "Programming", phone: "01857852828/01533131420", presentAddress: "Bangladesh", permanentAddress: "Bangladesh", directorName: "♛ Prof. Hammad Sahil CBE, Cpn Administrative Officer", dashboard: "https://imperialxbd.carrd.co/" },
-                    "002025-9900": { password: "UNGoals", message: "Welcome Fahmida Forkan Tushi 🎀", fatherName: "x", motherName: "x", nationality: "Bangladesh", courses: "DF X Hammad", phone: "x", presentAddress: "Bangladesh", permanentAddress: "Bangladesh", directorName: "♛ Prof. Hammad Sahil CBE, Cpn Administrative Officer", dashboard: "https://dfxhammad.carrd.co/" },
-                    "002025-6171": { password: "Jce@288", message: "Welcome Jobair Chisty 🤡", fatherName: "Jassim Uddin", motherName: "Shahanara Begum", nationality: "Bangladesh", courses: "DF X Hammad", phone: "01764440732", presentAddress: "Bangladesh", permanentAddress: "Bangladesh", directorName: "♛ Prof. Hammad Sahil CBE, Cpn Administrative Officer", dashboard: "https://dfxhammad.carrd.co/" },
-                    "002025-8124": { password: "082324", message: "Welcome Mobasshera Hoque 🎀", fatherName: "Mohammad Moin Uddin", motherName: "Shahajadi Begum", nationality: "Bangladesh", courses: "DF X Hammad", phone: "01537255684", presentAddress: "Bangladesh", permanentAddress: "Bangladesh", directorName: "♛ Prof. Hammad Sahil CBE, Cpn Administrative Officer", dashboard: "https://dfxhammad.carrd.co/" },
-                    "002025-1001": { password: "Has9", message: "Welcome Hasnine Mohammed Safir", fatherName: "Mohammed Harun", motherName: "Shamshad Begum", nationality: "Bangladesh", courses: "DF x Hammad", phone: "01609405865", presentAddress: "Bangladesh", permanentAddress: "Bangladesh", directorName: "♛ Prof. Hammad Sahil CBE, Cpn Administrative Officer", dashboard: "https://dfxhammad.carrd.co/" },
-                    "002025-1098": { password: "1098", message: "Welcome MD.Shafayat Ullah", fatherName: "Abdul Khalek Iqbal", motherName: "Jaheda Iqbal", nationality: "Bangladesh", courses: "DF x Hammad", phone: "01789527742", presentAddress: "Bangladesh", permanentAddress: "Bangladesh", directorName: "♛ Prof. Hammad Sahil CBE, Cpn Administrative Officer", dashboard: "https://dfxhammad.carrd.co/" }
+                    "002023-3100": { password: "3100", message: "Welcome Hasanur Rahman Adi💎", fatherName: "Azizur Rahman", motherName: "Bodrunnesa Nahid", nationality: "Bangladesh", courses: "Imperial Foundation Course", phone: "01891645407", presentAddress: "Patherghata Nazu Mia Lane 4no  Goli, Kotowali ,Chittagong", permanentAddress: "Same", directorName: "♛ Prof. Hammad Sahil, Cpn Administrative Officer", dashboard: "https://dynamicfeatures10-stack.github.io/impfoundation/impfoundation.html" },
+                    "002023-8332": { password: "658192", message: "Welcome Tabasum Nahar Mahi💎 (Ref:CAO)", fatherName: "Showkat Akbar Rana", motherName: "Housna Ara Begum", nationality: "Bangladesh", courses: "Freelancing, Programming With A Purpose", phone: "+880-1871034258", presentAddress: "Bangladesh", permanentAddress: "Bangladesh", directorName: "♛ Prof. Hammad Sahil, Cpn Administrative Officer", dashboard: "https://imperialxbd.carrd.co/" },
+                    "002026-2303": { password: "2303", message: "Welcome Ahanaf Farhan Rahi", fatherName: "X", motherName: "X", nationality: "Bangladesh", courses: "DF X Hammad", phone: "+880-1779625599", presentAddress: "Bangladesh", permanentAddress: "Bangladesh", directorName: "♛ Prof. Hammad Sahil", dashboard: "https://dfxhammad.carrd.co/" },
+                    "002024-8908": { password: "374682", message: "Welcome Saloa Ivnat Raiyan", fatherName: "Md Eliaus", motherName: "Nur Akther", nationality: "Bangladesh", courses: "Programming", phone: "01857852828/01533131420", presentAddress: "Bangladesh", permanentAddress: "Bangladesh", directorName: "♛ Prof. Hammad Sahil, Cpn Administrative Officer", dashboard: "https://imperialxbd.carrd.co/" },
+                    "002025-9900": { password: "UNGoals", message: "Welcome Fahmida Forkan Tushi 🎀", fatherName: "x", motherName: "x", nationality: "Bangladesh", courses: "DF X Hammad", phone: "x", presentAddress: "Bangladesh", permanentAddress: "Bangladesh", directorName: "♛ Prof. Hammad Sahil, Cpn Administrative Officer", dashboard: "https://dfxhammad.carrd.co/" },
+                    "002025-6171": { password: "Jce@288", message: "Welcome Jobair Chisty 🤡", fatherName: "Jassim Uddin", motherName: "Shahanara Begum", nationality: "Bangladesh", courses: "DF X Hammad", phone: "01764440732", presentAddress: "Bangladesh", permanentAddress: "Bangladesh", directorName: "♛ Prof. Hammad Sahil, Cpn Administrative Officer", dashboard: "https://dfxhammad.carrd.co/" },
+                    "002025-8124": { password: "082324", message: "Welcome Mobasshera Hoque 🎀", fatherName: "Mohammad Moin Uddin", motherName: "Shahajadi Begum", nationality: "Bangladesh", courses: "DF X Hammad", phone: "01537255684", presentAddress: "Bangladesh", permanentAddress: "Bangladesh", directorName: "♛ Prof. Hammad Sahil, Cpn Administrative Officer", dashboard: "https://dfxhammad.carrd.co/" },
+                    "002025-1001": { password: "Has9", message: "Welcome Hasnine Mohammed Safir", fatherName: "Mohammed Harun", motherName: "Shamshad Begum", nationality: "Bangladesh", courses: "DF x Hammad", phone: "01609405865", presentAddress: "Bangladesh", permanentAddress: "Bangladesh", directorName: "♛ Prof. Hammad Sahil, Cpn Administrative Officer", dashboard: "https://dfxhammad.carrd.co/" },
+                    "002025-1098": { password: "1098", message: "Welcome MD.Shafayat Ullah", fatherName: "Abdul Khalek Iqbal", motherName: "Jaheda Iqbal", nationality: "Bangladesh", courses: "DF x Hammad", phone: "01789527742", presentAddress: "Bangladesh", permanentAddress: "Bangladesh", directorName: "♛ Prof. Hammad Sahil, Cpn Administrative Officer", dashboard: "https://dfxhammad.carrd.co/" }
                 };
 
                 const student = studentDetails[studentID];
